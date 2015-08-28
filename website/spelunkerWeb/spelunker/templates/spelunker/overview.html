@@ -1,0 +1,25 @@
+{% extends "spelunker/base.html" %}
+
+{% load staticfiles %}
+
+{% block title %} {{ pageTitle }} {% endblock %}
+
+{% block content %}
+<div class="mdl-cell mdl-cell--12-col mdl-grid mdl-grid--no-spacing">
+	<div class="mdl-cell mdl-cell--12-col">
+		<h1 class='big'>{{ bigTitle }}</h1>
+	</div>
+	<div class="mdl-cell mdl-cell--12-col">
+		<img class='overview' src="{% static pageImage %}"
+	</div>
+	<div class="mdl-cell mdl-cell--12-col overviewText">
+		<h4>{{ pageText }}</h4>
+	</div>
+	<form action='{% url 'search' %}' method="POST" id="search2" class="mdl-cell mdl-cell--12-col">{% csrf_token %}
+		{{ form }}
+		<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+  			Search
+		</button>
+	</form>
+</div>
+{% endblock %}

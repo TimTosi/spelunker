@@ -1,0 +1,142 @@
+\hypertarget{classspelunkertest_1_1BlockTestCase}{}\section{spelunkertest.\+Block\+Test\+Case Class Reference}
+\label{classspelunkertest_1_1BlockTestCase}\index{spelunkertest.\+Block\+Test\+Case@{spelunkertest.\+Block\+Test\+Case}}
+
+
+Inheritance diagram for spelunkertest.\+Block\+Test\+Case\+:
+% FIG 0
+
+
+Collaboration diagram for spelunkertest.\+Block\+Test\+Case\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_a165c3d71ffa2b163580b8f5455f64315}{set\+Up\+Class} (cls)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_a5ecfab2fa77d0b3ae6af890612cccac0}{tear\+Down\+Class} (cls)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_af3d387c663a3b4e39c33a2386e48cb40}{test\+Block\+Hash} (self)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_a7c4777b83ce9fae980269ae29e02fa5d}{test\+Block\+Merkle\+Root} (self)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_a6a82a0909e6a56cc71e0a3c7f2f9784f}{test\+Block\+Previous\+Block\+Hash} (self)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_a71632c0565f48f8ae39b5cf6bf9dfb55}{test\+Block\+Version} (self)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_af146d99ed367e2ef6a37e16cbe53f51e}{test\+Block\+Height} (self)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_af05d8912b579967996e8e8c308382df8}{test\+Block\+Is\+Orphan} (self)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_a6673bbc2850de0238189777acd63b94a}{test\+Block\+Length} (self)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_a04e6cd6f5223d914f96a23a183d68389}{test\+Block\+Nonce} (self)
+\item 
+def \hyperlink{classspelunkertest_1_1BlockTestCase_ad2816e038300dbafc0c20f96616308ce}{test\+Block\+Timestamp} (self)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}This class regroups test cases for Block object.\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classspelunkertest_1_1BlockTestCase_a165c3d71ffa2b163580b8f5455f64315}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!set\+Up\+Class@{set\+Up\+Class}}
+\index{set\+Up\+Class@{set\+Up\+Class}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{set\+Up\+Class}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+set\+Up\+Class (
+\begin{DoxyParamCaption}
+\item[{}]{cls}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_a165c3d71ffa2b163580b8f5455f64315}
+\begin{DoxyVerb}Set up class method.
+
+Establishes database connection, retrieves some blocks
+of the database and corresponding blocks on blockchain.info.
+\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_a5ecfab2fa77d0b3ae6af890612cccac0}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!tear\+Down\+Class@{tear\+Down\+Class}}
+\index{tear\+Down\+Class@{tear\+Down\+Class}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{tear\+Down\+Class}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+tear\+Down\+Class (
+\begin{DoxyParamCaption}
+\item[{}]{cls}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_a5ecfab2fa77d0b3ae6af890612cccac0}
+\begin{DoxyVerb}Tear Down class method.
+
+Closes database connection.
+\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_af3d387c663a3b4e39c33a2386e48cb40}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!test\+Block\+Hash@{test\+Block\+Hash}}
+\index{test\+Block\+Hash@{test\+Block\+Hash}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+test\+Block\+Hash (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_af3d387c663a3b4e39c33a2386e48cb40}
+\begin{DoxyVerb}Assert the blockHash attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_af146d99ed367e2ef6a37e16cbe53f51e}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!test\+Block\+Height@{test\+Block\+Height}}
+\index{test\+Block\+Height@{test\+Block\+Height}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Height}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+test\+Block\+Height (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_af146d99ed367e2ef6a37e16cbe53f51e}
+\begin{DoxyVerb}Assert the realNumber attribute corresponding to the height of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_af05d8912b579967996e8e8c308382df8}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!test\+Block\+Is\+Orphan@{test\+Block\+Is\+Orphan}}
+\index{test\+Block\+Is\+Orphan@{test\+Block\+Is\+Orphan}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Is\+Orphan}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+test\+Block\+Is\+Orphan (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_af05d8912b579967996e8e8c308382df8}
+\begin{DoxyVerb}Assert the isOrphan attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_a6673bbc2850de0238189777acd63b94a}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!test\+Block\+Length@{test\+Block\+Length}}
+\index{test\+Block\+Length@{test\+Block\+Length}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Length}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+test\+Block\+Length (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_a6673bbc2850de0238189777acd63b94a}
+\begin{DoxyVerb}Assert the length attribute corresponding to the binary size of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_a7c4777b83ce9fae980269ae29e02fa5d}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!test\+Block\+Merkle\+Root@{test\+Block\+Merkle\+Root}}
+\index{test\+Block\+Merkle\+Root@{test\+Block\+Merkle\+Root}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Merkle\+Root}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+test\+Block\+Merkle\+Root (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_a7c4777b83ce9fae980269ae29e02fa5d}
+\begin{DoxyVerb}Assert the merkleRoot attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_a04e6cd6f5223d914f96a23a183d68389}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!test\+Block\+Nonce@{test\+Block\+Nonce}}
+\index{test\+Block\+Nonce@{test\+Block\+Nonce}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Nonce}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+test\+Block\+Nonce (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_a04e6cd6f5223d914f96a23a183d68389}
+\begin{DoxyVerb}Assert the nonce attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_a6a82a0909e6a56cc71e0a3c7f2f9784f}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!test\+Block\+Previous\+Block\+Hash@{test\+Block\+Previous\+Block\+Hash}}
+\index{test\+Block\+Previous\+Block\+Hash@{test\+Block\+Previous\+Block\+Hash}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Previous\+Block\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+test\+Block\+Previous\+Block\+Hash (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_a6a82a0909e6a56cc71e0a3c7f2f9784f}
+\begin{DoxyVerb}Assert the previousBlockHash attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_ad2816e038300dbafc0c20f96616308ce}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!test\+Block\+Timestamp@{test\+Block\+Timestamp}}
+\index{test\+Block\+Timestamp@{test\+Block\+Timestamp}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Timestamp}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+test\+Block\+Timestamp (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_ad2816e038300dbafc0c20f96616308ce}
+\begin{DoxyVerb}Assert the timestamp attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classspelunkertest_1_1BlockTestCase_a71632c0565f48f8ae39b5cf6bf9dfb55}{}\index{spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}!test\+Block\+Version@{test\+Block\+Version}}
+\index{test\+Block\+Version@{test\+Block\+Version}!spelunkertest\+::\+Block\+Test\+Case@{spelunkertest\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Version}]{\setlength{\rightskip}{0pt plus 5cm}def spelunkertest.\+Block\+Test\+Case.\+test\+Block\+Version (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classspelunkertest_1_1BlockTestCase_a71632c0565f48f8ae39b5cf6bf9dfb55}
+\begin{DoxyVerb}Assert the version attribute of BlockHeader.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tim/\+Dev/\+Python/spelunker/src/spelunkertest.\+py\end{DoxyCompactItemize}

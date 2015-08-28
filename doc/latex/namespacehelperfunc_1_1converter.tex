@@ -1,0 +1,108 @@
+\hypertarget{namespacehelperfunc_1_1converter}{}\section{helperfunc.\+converter Namespace Reference}
+\label{namespacehelperfunc_1_1converter}\index{helperfunc.\+converter@{helperfunc.\+converter}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacehelperfunc_1_1converter_a9a2e37b956c47478d1851319ad44fdca}{str\+To\+Base256} (string)
+\item 
+def \hyperlink{namespacehelperfunc_1_1converter_aba1430a1851d8d77889e199481f0f9e5}{str\+To\+Base58} (nb)
+\item 
+def \hyperlink{namespacehelperfunc_1_1converter_a94a74edadc3eaf6a0ef0ebab56bc831a}{key\+Hash\+To\+Address} (key)
+\item 
+def \hyperlink{namespacehelperfunc_1_1converter_a284dabfc8466c39993ae03130b7a586f}{E\+C\+D\+S\+A\+To\+Address} (key)
+\item 
+def \hyperlink{namespacehelperfunc_1_1converter_ac2ac1dcd5face751bd0886e64cb0380e}{input\+To\+Binary} (input\+\_\+)
+\item 
+def \hyperlink{namespacehelperfunc_1_1converter_a2a40d8c9909c19ad8845f90a049c2fa5}{output\+To\+Binary} (output)
+\item 
+def \hyperlink{namespacehelperfunc_1_1converter_a9c580f289e898f0df9484edf3579a185}{block\+Header\+To\+Block\+Hash} (version, previous\+Block\+Hash, merkle\+Root, timestamp, target\+Difficulty, nonce)
+\item 
+def \hyperlink{namespacehelperfunc_1_1converter_a840fa6c5d780a1ba87bcde23a60a7907}{transaction\+To\+Transaction\+Hash} (version, input\+Var\+Int, input\+Count, input\+List, output\+Var\+Int, output\+Count, output\+List, lock\+Time)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}@package helperfunc
+
+This file contains several functions used to convert formats and bitcoin addresses.
+\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\hypertarget{namespacehelperfunc_1_1converter_a9c580f289e898f0df9484edf3579a185}{}\index{helperfunc\+::converter@{helperfunc\+::converter}!block\+Header\+To\+Block\+Hash@{block\+Header\+To\+Block\+Hash}}
+\index{block\+Header\+To\+Block\+Hash@{block\+Header\+To\+Block\+Hash}!helperfunc\+::converter@{helperfunc\+::converter}}
+\subsubsection[{block\+Header\+To\+Block\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}def helperfunc.\+converter.\+block\+Header\+To\+Block\+Hash (
+\begin{DoxyParamCaption}
+\item[{}]{version, }
+\item[{}]{previous\+Block\+Hash, }
+\item[{}]{merkle\+Root, }
+\item[{}]{timestamp, }
+\item[{}]{target\+Difficulty, }
+\item[{}]{nonce}
+\end{DoxyParamCaption}
+)}\label{namespacehelperfunc_1_1converter_a9c580f289e898f0df9484edf3579a185}
+\begin{DoxyVerb}Converts a BlockHeader object to its hash representation.\end{DoxyVerb}
+ \hypertarget{namespacehelperfunc_1_1converter_a284dabfc8466c39993ae03130b7a586f}{}\index{helperfunc\+::converter@{helperfunc\+::converter}!E\+C\+D\+S\+A\+To\+Address@{E\+C\+D\+S\+A\+To\+Address}}
+\index{E\+C\+D\+S\+A\+To\+Address@{E\+C\+D\+S\+A\+To\+Address}!helperfunc\+::converter@{helperfunc\+::converter}}
+\subsubsection[{E\+C\+D\+S\+A\+To\+Address}]{\setlength{\rightskip}{0pt plus 5cm}def helperfunc.\+converter.\+E\+C\+D\+S\+A\+To\+Address (
+\begin{DoxyParamCaption}
+\item[{}]{key}
+\end{DoxyParamCaption}
+)}\label{namespacehelperfunc_1_1converter_a284dabfc8466c39993ae03130b7a586f}
+\begin{DoxyVerb}Converts a ECDSA key to a Bitcoin address.\end{DoxyVerb}
+ \hypertarget{namespacehelperfunc_1_1converter_ac2ac1dcd5face751bd0886e64cb0380e}{}\index{helperfunc\+::converter@{helperfunc\+::converter}!input\+To\+Binary@{input\+To\+Binary}}
+\index{input\+To\+Binary@{input\+To\+Binary}!helperfunc\+::converter@{helperfunc\+::converter}}
+\subsubsection[{input\+To\+Binary}]{\setlength{\rightskip}{0pt plus 5cm}def helperfunc.\+converter.\+input\+To\+Binary (
+\begin{DoxyParamCaption}
+\item[{}]{input\+\_\+}
+\end{DoxyParamCaption}
+)}\label{namespacehelperfunc_1_1converter_ac2ac1dcd5face751bd0886e64cb0380e}
+\begin{DoxyVerb}Converts an Input object to its binary representation.\end{DoxyVerb}
+ \hypertarget{namespacehelperfunc_1_1converter_a94a74edadc3eaf6a0ef0ebab56bc831a}{}\index{helperfunc\+::converter@{helperfunc\+::converter}!key\+Hash\+To\+Address@{key\+Hash\+To\+Address}}
+\index{key\+Hash\+To\+Address@{key\+Hash\+To\+Address}!helperfunc\+::converter@{helperfunc\+::converter}}
+\subsubsection[{key\+Hash\+To\+Address}]{\setlength{\rightskip}{0pt plus 5cm}def helperfunc.\+converter.\+key\+Hash\+To\+Address (
+\begin{DoxyParamCaption}
+\item[{}]{key}
+\end{DoxyParamCaption}
+)}\label{namespacehelperfunc_1_1converter_a94a74edadc3eaf6a0ef0ebab56bc831a}
+\begin{DoxyVerb}Converts a key hash to a Bitcoin address.\end{DoxyVerb}
+ \hypertarget{namespacehelperfunc_1_1converter_a2a40d8c9909c19ad8845f90a049c2fa5}{}\index{helperfunc\+::converter@{helperfunc\+::converter}!output\+To\+Binary@{output\+To\+Binary}}
+\index{output\+To\+Binary@{output\+To\+Binary}!helperfunc\+::converter@{helperfunc\+::converter}}
+\subsubsection[{output\+To\+Binary}]{\setlength{\rightskip}{0pt plus 5cm}def helperfunc.\+converter.\+output\+To\+Binary (
+\begin{DoxyParamCaption}
+\item[{}]{output}
+\end{DoxyParamCaption}
+)}\label{namespacehelperfunc_1_1converter_a2a40d8c9909c19ad8845f90a049c2fa5}
+\begin{DoxyVerb}Converts an Output object to its binary representation.\end{DoxyVerb}
+ \hypertarget{namespacehelperfunc_1_1converter_a9a2e37b956c47478d1851319ad44fdca}{}\index{helperfunc\+::converter@{helperfunc\+::converter}!str\+To\+Base256@{str\+To\+Base256}}
+\index{str\+To\+Base256@{str\+To\+Base256}!helperfunc\+::converter@{helperfunc\+::converter}}
+\subsubsection[{str\+To\+Base256}]{\setlength{\rightskip}{0pt plus 5cm}def helperfunc.\+converter.\+str\+To\+Base256 (
+\begin{DoxyParamCaption}
+\item[{}]{string}
+\end{DoxyParamCaption}
+)}\label{namespacehelperfunc_1_1converter_a9a2e37b956c47478d1851319ad44fdca}
+\begin{DoxyVerb}Converts a string to base 256 format.\end{DoxyVerb}
+ \hypertarget{namespacehelperfunc_1_1converter_aba1430a1851d8d77889e199481f0f9e5}{}\index{helperfunc\+::converter@{helperfunc\+::converter}!str\+To\+Base58@{str\+To\+Base58}}
+\index{str\+To\+Base58@{str\+To\+Base58}!helperfunc\+::converter@{helperfunc\+::converter}}
+\subsubsection[{str\+To\+Base58}]{\setlength{\rightskip}{0pt plus 5cm}def helperfunc.\+converter.\+str\+To\+Base58 (
+\begin{DoxyParamCaption}
+\item[{}]{nb}
+\end{DoxyParamCaption}
+)}\label{namespacehelperfunc_1_1converter_aba1430a1851d8d77889e199481f0f9e5}
+\begin{DoxyVerb}Converts a value to base 256 format.\end{DoxyVerb}
+ \hypertarget{namespacehelperfunc_1_1converter_a840fa6c5d780a1ba87bcde23a60a7907}{}\index{helperfunc\+::converter@{helperfunc\+::converter}!transaction\+To\+Transaction\+Hash@{transaction\+To\+Transaction\+Hash}}
+\index{transaction\+To\+Transaction\+Hash@{transaction\+To\+Transaction\+Hash}!helperfunc\+::converter@{helperfunc\+::converter}}
+\subsubsection[{transaction\+To\+Transaction\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}def helperfunc.\+converter.\+transaction\+To\+Transaction\+Hash (
+\begin{DoxyParamCaption}
+\item[{}]{version, }
+\item[{}]{input\+Var\+Int, }
+\item[{}]{input\+Count, }
+\item[{}]{input\+List, }
+\item[{}]{output\+Var\+Int, }
+\item[{}]{output\+Count, }
+\item[{}]{output\+List, }
+\item[{}]{lock\+Time}
+\end{DoxyParamCaption}
+)}\label{namespacehelperfunc_1_1converter_a840fa6c5d780a1ba87bcde23a60a7907}
+\begin{DoxyVerb}Converts a Transaction object to its hash representation.\end{DoxyVerb}
+ 

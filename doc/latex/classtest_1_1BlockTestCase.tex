@@ -1,0 +1,142 @@
+\hypertarget{classtest_1_1BlockTestCase}{}\section{test.\+Block\+Test\+Case Class Reference}
+\label{classtest_1_1BlockTestCase}\index{test.\+Block\+Test\+Case@{test.\+Block\+Test\+Case}}
+
+
+Inheritance diagram for test.\+Block\+Test\+Case\+:
+% FIG 0
+
+
+Collaboration diagram for test.\+Block\+Test\+Case\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_a0c98bf2645b826cf78969424893fbda2}{set\+Up\+Class} (cls)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_ade517b464db1a39ecf2b5afe6e055a51}{tear\+Down\+Class} (cls)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_a8ed16b258f59614c8c85a4544c63e6dc}{test\+Block\+Hash} (self)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_ae0e8e6af5db7f6e7ac395c896da25e7f}{test\+Block\+Merkle\+Root} (self)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_a08c78ae2a1f025d37bac9af577f61733}{test\+Block\+Previous\+Block\+Hash} (self)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_a1ade81aba4bfef624be676d47b1dbeb6}{test\+Block\+Version} (self)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_a37e5dd128418488d062ca1891177d923}{test\+Block\+Height} (self)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_a13bbdc381317e1d67661e4642627c8cb}{test\+Block\+Is\+Orphan} (self)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_ab01e1cb70fb6a7c6faee760a982490b1}{test\+Block\+Length} (self)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_a63db74b9ddda721e605e59dacad1fc21}{test\+Block\+Nonce} (self)
+\item 
+def \hyperlink{classtest_1_1BlockTestCase_a16b138e2b1a1662759cd6651d8d107f1}{test\+Block\+Timestamp} (self)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}This class regroups test cases for Block object.\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classtest_1_1BlockTestCase_a0c98bf2645b826cf78969424893fbda2}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!set\+Up\+Class@{set\+Up\+Class}}
+\index{set\+Up\+Class@{set\+Up\+Class}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{set\+Up\+Class}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+set\+Up\+Class (
+\begin{DoxyParamCaption}
+\item[{}]{cls}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_a0c98bf2645b826cf78969424893fbda2}
+\begin{DoxyVerb}Set up class method.
+
+Establishes database connection, retrieves some blocks
+of the database and corresponding blocks on blockchain.info.
+\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_ade517b464db1a39ecf2b5afe6e055a51}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!tear\+Down\+Class@{tear\+Down\+Class}}
+\index{tear\+Down\+Class@{tear\+Down\+Class}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{tear\+Down\+Class}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+tear\+Down\+Class (
+\begin{DoxyParamCaption}
+\item[{}]{cls}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_ade517b464db1a39ecf2b5afe6e055a51}
+\begin{DoxyVerb}Tear Down class method.
+
+Closes database connection.
+\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_a8ed16b258f59614c8c85a4544c63e6dc}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!test\+Block\+Hash@{test\+Block\+Hash}}
+\index{test\+Block\+Hash@{test\+Block\+Hash}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+test\+Block\+Hash (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_a8ed16b258f59614c8c85a4544c63e6dc}
+\begin{DoxyVerb}Assert the blockHash attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_a37e5dd128418488d062ca1891177d923}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!test\+Block\+Height@{test\+Block\+Height}}
+\index{test\+Block\+Height@{test\+Block\+Height}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Height}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+test\+Block\+Height (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_a37e5dd128418488d062ca1891177d923}
+\begin{DoxyVerb}Assert the realNumber attribute corresponding to the height of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_a13bbdc381317e1d67661e4642627c8cb}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!test\+Block\+Is\+Orphan@{test\+Block\+Is\+Orphan}}
+\index{test\+Block\+Is\+Orphan@{test\+Block\+Is\+Orphan}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Is\+Orphan}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+test\+Block\+Is\+Orphan (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_a13bbdc381317e1d67661e4642627c8cb}
+\begin{DoxyVerb}Assert the isOrphan attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_ab01e1cb70fb6a7c6faee760a982490b1}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!test\+Block\+Length@{test\+Block\+Length}}
+\index{test\+Block\+Length@{test\+Block\+Length}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Length}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+test\+Block\+Length (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_ab01e1cb70fb6a7c6faee760a982490b1}
+\begin{DoxyVerb}Assert the length attribute corresponding to the binary size of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_ae0e8e6af5db7f6e7ac395c896da25e7f}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!test\+Block\+Merkle\+Root@{test\+Block\+Merkle\+Root}}
+\index{test\+Block\+Merkle\+Root@{test\+Block\+Merkle\+Root}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Merkle\+Root}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+test\+Block\+Merkle\+Root (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_ae0e8e6af5db7f6e7ac395c896da25e7f}
+\begin{DoxyVerb}Assert the merkleRoot attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_a63db74b9ddda721e605e59dacad1fc21}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!test\+Block\+Nonce@{test\+Block\+Nonce}}
+\index{test\+Block\+Nonce@{test\+Block\+Nonce}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Nonce}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+test\+Block\+Nonce (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_a63db74b9ddda721e605e59dacad1fc21}
+\begin{DoxyVerb}Assert the nonce attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_a08c78ae2a1f025d37bac9af577f61733}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!test\+Block\+Previous\+Block\+Hash@{test\+Block\+Previous\+Block\+Hash}}
+\index{test\+Block\+Previous\+Block\+Hash@{test\+Block\+Previous\+Block\+Hash}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Previous\+Block\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+test\+Block\+Previous\+Block\+Hash (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_a08c78ae2a1f025d37bac9af577f61733}
+\begin{DoxyVerb}Assert the previousBlockHash attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_a16b138e2b1a1662759cd6651d8d107f1}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!test\+Block\+Timestamp@{test\+Block\+Timestamp}}
+\index{test\+Block\+Timestamp@{test\+Block\+Timestamp}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Timestamp}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+test\+Block\+Timestamp (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_a16b138e2b1a1662759cd6651d8d107f1}
+\begin{DoxyVerb}Assert the timestamp attribute of BlockHeader.\end{DoxyVerb}
+ \hypertarget{classtest_1_1BlockTestCase_a1ade81aba4bfef624be676d47b1dbeb6}{}\index{test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}!test\+Block\+Version@{test\+Block\+Version}}
+\index{test\+Block\+Version@{test\+Block\+Version}!test\+::\+Block\+Test\+Case@{test\+::\+Block\+Test\+Case}}
+\subsubsection[{test\+Block\+Version}]{\setlength{\rightskip}{0pt plus 5cm}def test.\+Block\+Test\+Case.\+test\+Block\+Version (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classtest_1_1BlockTestCase_a1ade81aba4bfef624be676d47b1dbeb6}
+\begin{DoxyVerb}Assert the version attribute of BlockHeader.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tim/\+Dev/\+Python/spelunker/src/test.\+py\end{DoxyCompactItemize}

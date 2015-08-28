@@ -1,0 +1,861 @@
+\hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper}{}\section{postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper Class Reference}
+\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper}\index{postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper@{postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a7dc48302219ecef8b3676bea71458216}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self, db\+Credentials)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a425194c5ae188ff38bea5ac3aa010aba}{set\+Database\+Env} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9403a1556bc565e6d463a94df2ddeb42}{connect} (self, db\+Credentials)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a220c9801486a986782d2bc85388c1155}{close} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a1865425d520f671ca027d8efdc991531}{commit} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ab7c38b341985028186600feed39f4bf7}{set\+Last\+Id} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a3cd6c0df35212ec066ddf4b4cc157535}{prepare\+Query} (self, query)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9848905411f8fc9a058d51b5be0b3bee}{execute\+Query\+Fetch}
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af7b9034a434cd3c06dbf6324b9453a58}{execute\+Query}
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a6f1b9d13a2bd1425ebfe8730369d23dd}{fetch\+One} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a722dd5af60bd503b5a129701a775b8bc}{fetch\+All} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a0376de0201911e1e3d3e534633d085c7}{get\+Block\+By\+Number} (self, block\+Number)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8f18330c2e05d079309582ee8815f69c}{get\+Block\+By\+Heigth} (self, heigth)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a1b392365805aa2784a22e8d9195d8522}{get\+Block\+By\+Hash} (self, block\+Hash)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a74da0e565a62fbc30b4a7db8cb0f25ec}{get\+Block\+By\+Tx\+Id} (self, transaction\+Id)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8dacb18eb917cbced91f6ed834f29ede}{get\+Block\+By\+Input\+Id} (self, input\+Id)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a6f86656bdf99b8400c6bdc61461b48d9}{get\+Block\+By\+Output\+Id} (self, output\+Id)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_afa563e6c3d2172c38de480d11758a33b}{get\+Last\+Block} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a0fe5f099090d61791d332620790adca8}{get\+Tx\+By\+Id} (self, id\+\_\+)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a46d7b014b72d16f17028bbefbdad7fa7}{get\+Tx\+By\+Block\+Number} (self, block\+Number)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a147fc4b25f9ffb9fd5ca5ed893452cad}{get\+Input\+By\+Id} (self, id\+\_\+)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a88b226fdee21bf6f97c789e5839f7b31}{get\+Output\+By\+Id} (self, id\+\_\+)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9f8e2c7d80b07e8ff0fcaa07c3a642ef}{get\+Input\+By\+Tx\+Id} (self, transaction\+Id)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac09d8bc8495cbe3e2e0a507b1d0c1ba0}{get\+Output\+By\+Tx\+Id} (self, transaction\+Id)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a232bcbd789add357dde44cf71c9d50ec}{get\+Full\+Block\+By\+Number} (self, block\+Number)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_afaf1391bc410291096d218a2343b8d52}{get\+Full\+Tx\+By\+Block\+Number} (self, block\+Number)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_aaf7ce14583176b355c4b9c17e192be45}{get\+Previous\+Output\+From\+Input} (self, input\+\_\+)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a0dc299ec6e6c53e90eb1381d200b2026}{insert\+Full\+Block} (self, block)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ae72260c4408107303c0dc4837044c0b9}{insert\+Block} (self, block)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a6d64a3635710a6a7ba4ccad62c21dacc}{insert\+Transaction} (self, transaction)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac6b59f2ca85fbf2ff0b4f2d92ab90499}{insert\+Input} (self, input\+\_\+)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af2733fa379504739957156fa4903af42}{insert\+Output} (self, output)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a481a48950bd942eed40e2a22176d33e8}{get\+Last\+Offset} (self, file\+Name)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8df7f4e0601260a9fb187b3f52a3cd93}{get\+Block\+Count} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af8f3c176e3875823994e9635c27cbe5c}{get\+Tx\+Count} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a11585d2dbd0ac1d9cda611d9b6b2fb25}{get\+Input\+Count} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9786a724486081babb50122dfe6d0f80}{get\+Output\+Count} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a3caf856162be06c4951c223fa485e294}{insert\+Cluster} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_aa1382df31079593373a9315b4c1bc3c9}{insert\+Address} (self, address)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac509c3afc2bbc8e4e73be670dbc712ee}{aggregate\+Addresses} (self, address1, address2)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a1d011748df485278d4e48996737259ac}{get\+Ledger\+At\+Time} (self, address, timestamp)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9a23bdd7248259238f94d717d331c109}{is\+Seen\+At\+Time} (self, address, timestamp)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a20c466599e2c2c64de102b47339f36fa}{insert\+Input\+To\+Ledger} (self, input\+\_\+)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a17a0a01a44a9e50919cbbe87dac62e3b}{insert\+Output\+To\+Ledger} (self, output)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af4ada9308310290c48d937347c740078}{get\+Last\+Main\+Chain\+Block} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ab8bb7a22483d61791c1088cf95212852}{get\+Last\+Orphan\+Flow} (self, table)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a46fd2036e7900fadffc5fa9a8eb8ba56}{get\+Last\+Block\+By\+Heigth} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_afd91d516eb822d58e277eb3e99bedbd7}{update\+Main\+Chain} (self, prev\+Block\+Number, currentblock\+Hash)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a7b482b7387304bc6a3c741c39c8a79b8}{update\+Orphan\+Blocks} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a4cc6f52854630e34a5f39191b82fef51}{update\+Orphan\+State} (self, table, block\+Number, state)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac32d2cfa6e756e37bcab26f1f9e9218a}{update\+Block\+Heigth} (self, block\+Number, block\+Real\+Number)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a745fca421fa40b483cb705aa446fa009}{create\+Block\+Table} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a7e0acef19b2130251a6fa27dee2f9b51}{create\+Transaction\+Table} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a2b58a72d52effd5ba3ba3327da530fdd}{create\+Input\+Table} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a3cf7d8bd8963297fef028be38fed6f80}{create\+Output\+Table} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a89f68aee6dd193e1cd24770bd2da1088}{create\+Cluster\+Table} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ae9b6b2cf8f50cea8853631f600d5b209}{create\+Address\+Table} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_aa0475aabbb8f381f30811de2a3f6e6c9}{create\+Ledger\+Table} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a347707a06966fa6b699c06e4b80d4687}{create\+Database\+Tables} (self)
+\item 
+def \hyperlink{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af1620e03c170355210bc9285642d2387}{create\+Indexes} (self)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af969f29436d83972aecddc24f5f4b87a}{}{\bfseries db\+Credentials}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af969f29436d83972aecddc24f5f4b87a}
+
+\item 
+\hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ab5999a62ae92f81416fd6741d5a6e3c2}{}{\bfseries db\+Connection}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ab5999a62ae92f81416fd6741d5a6e3c2}
+
+\item 
+\hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8629b82a576ed03db75094298af03986}{}{\bfseries cursor}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8629b82a576ed03db75094298af03986}
+
+\item 
+\hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a640fa9c122fbf0cfc31aa88c1558efa3}{}{\bfseries query}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a640fa9c122fbf0cfc31aa88c1558efa3}
+
+\item 
+\hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a12faa4065d1d574cc947645a20d86c22}{}{\bfseries result}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a12faa4065d1d574cc947645a20d86c22}
+
+\item 
+\hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_adda93c3fa92a2c45999b87d076fffd2d}{}{\bfseries last\+Id}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_adda93c3fa92a2c45999b87d076fffd2d}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Database manager class.
+
+This class provides several useful functions used by the parser
+and the clusterizer for inserting and retrieving datas.
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a7dc48302219ecef8b3676bea71458216}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{\+\_\+\+\_\+init\+\_\+\+\_\+}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+\_\+\+\_\+init\+\_\+\+\_\+ (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{db\+Credentials}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a7dc48302219ecef8b3676bea71458216}
+\begin{DoxyVerb}DatabaseWrapper constructor.
+
+This method initializes the DatabaseWrapper with conf.ini settings.
+\end{DoxyVerb}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac509c3afc2bbc8e4e73be670dbc712ee}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!aggregate\+Addresses@{aggregate\+Addresses}}
+\index{aggregate\+Addresses@{aggregate\+Addresses}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{aggregate\+Addresses}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+aggregate\+Addresses (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{address1, }
+\item[{}]{address2}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac509c3afc2bbc8e4e73be670dbc712ee}
+\begin{DoxyVerb}Regroups addresses related to a same cluster.
+
+@param address1 Address object.
+@param address2 Address object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a220c9801486a986782d2bc85388c1155}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!close@{close}}
+\index{close@{close}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+close (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a220c9801486a986782d2bc85388c1155}
+\begin{DoxyVerb}Closes database connection\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a1865425d520f671ca027d8efdc991531}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!commit@{commit}}
+\index{commit@{commit}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{commit}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+commit (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a1865425d520f671ca027d8efdc991531}
+\begin{DoxyVerb}Commits changes in the database.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9403a1556bc565e6d463a94df2ddeb42}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!connect@{connect}}
+\index{connect@{connect}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{connect}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+connect (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{db\+Credentials}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9403a1556bc565e6d463a94df2ddeb42}
+\begin{DoxyVerb}Establishes database connection.
+
+@param dbCredentials String containing username, password and database name for connection.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ae9b6b2cf8f50cea8853631f600d5b209}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!create\+Address\+Table@{create\+Address\+Table}}
+\index{create\+Address\+Table@{create\+Address\+Table}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{create\+Address\+Table}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+create\+Address\+Table (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ae9b6b2cf8f50cea8853631f600d5b209}
+\begin{DoxyVerb}Creates Address table.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a745fca421fa40b483cb705aa446fa009}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!create\+Block\+Table@{create\+Block\+Table}}
+\index{create\+Block\+Table@{create\+Block\+Table}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{create\+Block\+Table}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+create\+Block\+Table (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a745fca421fa40b483cb705aa446fa009}
+\begin{DoxyVerb}Creates Block table.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a89f68aee6dd193e1cd24770bd2da1088}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!create\+Cluster\+Table@{create\+Cluster\+Table}}
+\index{create\+Cluster\+Table@{create\+Cluster\+Table}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{create\+Cluster\+Table}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+create\+Cluster\+Table (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a89f68aee6dd193e1cd24770bd2da1088}
+\begin{DoxyVerb}Creates Cluster table.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a347707a06966fa6b699c06e4b80d4687}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!create\+Database\+Tables@{create\+Database\+Tables}}
+\index{create\+Database\+Tables@{create\+Database\+Tables}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{create\+Database\+Tables}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+create\+Database\+Tables (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a347707a06966fa6b699c06e4b80d4687}
+\begin{DoxyVerb}Creates all database tables.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af1620e03c170355210bc9285642d2387}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!create\+Indexes@{create\+Indexes}}
+\index{create\+Indexes@{create\+Indexes}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{create\+Indexes}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+create\+Indexes (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af1620e03c170355210bc9285642d2387}
+\begin{DoxyVerb}Creates Indexes tables.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a2b58a72d52effd5ba3ba3327da530fdd}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!create\+Input\+Table@{create\+Input\+Table}}
+\index{create\+Input\+Table@{create\+Input\+Table}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{create\+Input\+Table}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+create\+Input\+Table (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a2b58a72d52effd5ba3ba3327da530fdd}
+\begin{DoxyVerb}Creates Input table.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_aa0475aabbb8f381f30811de2a3f6e6c9}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!create\+Ledger\+Table@{create\+Ledger\+Table}}
+\index{create\+Ledger\+Table@{create\+Ledger\+Table}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{create\+Ledger\+Table}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+create\+Ledger\+Table (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_aa0475aabbb8f381f30811de2a3f6e6c9}
+\begin{DoxyVerb}Creates Ledger table.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a3cf7d8bd8963297fef028be38fed6f80}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!create\+Output\+Table@{create\+Output\+Table}}
+\index{create\+Output\+Table@{create\+Output\+Table}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{create\+Output\+Table}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+create\+Output\+Table (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a3cf7d8bd8963297fef028be38fed6f80}
+\begin{DoxyVerb}Creates Output table.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a7e0acef19b2130251a6fa27dee2f9b51}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!create\+Transaction\+Table@{create\+Transaction\+Table}}
+\index{create\+Transaction\+Table@{create\+Transaction\+Table}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{create\+Transaction\+Table}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+create\+Transaction\+Table (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a7e0acef19b2130251a6fa27dee2f9b51}
+\begin{DoxyVerb}Creates Transaction table.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af7b9034a434cd3c06dbf6324b9453a58}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!execute\+Query@{execute\+Query}}
+\index{execute\+Query@{execute\+Query}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{execute\+Query}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+execute\+Query (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{query = {\ttfamily None}, }
+\item[{}]{args = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af7b9034a434cd3c06dbf6324b9453a58}
+\begin{DoxyVerb}Executes the query passed in parameter with args value.
+
+If no query is passed in parameter, uses the last query set.
+Can be used without args.
+@param query String containing the query to execute.
+@param args Tupple of arguments to use with the query.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9848905411f8fc9a058d51b5be0b3bee}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!execute\+Query\+Fetch@{execute\+Query\+Fetch}}
+\index{execute\+Query\+Fetch@{execute\+Query\+Fetch}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{execute\+Query\+Fetch}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+execute\+Query\+Fetch (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{query = {\ttfamily None}}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9848905411f8fc9a058d51b5be0b3bee}
+\begin{DoxyVerb}Executes the query passed in parameter and returns the result.
+
+If no query is passed in parameter, uses the last query set.
+@param query String containing the query to execute.
+@retval self.result The result of the query.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a722dd5af60bd503b5a129701a775b8bc}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!fetch\+All@{fetch\+All}}
+\index{fetch\+All@{fetch\+All}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{fetch\+All}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+fetch\+All (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a722dd5af60bd503b5a129701a775b8bc}
+\begin{DoxyVerb}Fetches the result of the last query executed.
+
+@retval self.result The result of the last query executed\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a6f1b9d13a2bd1425ebfe8730369d23dd}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!fetch\+One@{fetch\+One}}
+\index{fetch\+One@{fetch\+One}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{fetch\+One}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+fetch\+One (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a6f1b9d13a2bd1425ebfe8730369d23dd}
+\begin{DoxyVerb}Fetches the first result of the last query executed.
+
+@retval self.result The result of the last query executed\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a1b392365805aa2784a22e8d9195d8522}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Block\+By\+Hash@{get\+Block\+By\+Hash}}
+\index{get\+Block\+By\+Hash@{get\+Block\+By\+Hash}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Block\+By\+Hash}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Block\+By\+Hash (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{block\+Hash}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a1b392365805aa2784a22e8d9195d8522}
+\begin{DoxyVerb}Retrieves a block from the database from its hash and initializes it.
+
+@param blockHash The hash value of the block.
+@retval block Block object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8f18330c2e05d079309582ee8815f69c}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Block\+By\+Heigth@{get\+Block\+By\+Heigth}}
+\index{get\+Block\+By\+Heigth@{get\+Block\+By\+Heigth}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Block\+By\+Heigth}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Block\+By\+Heigth (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{heigth}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8f18330c2e05d079309582ee8815f69c}
+\begin{DoxyVerb}Retrieves a block from the database from its heigth and initializes it.
+
+@param heigth The block heigth.
+@retval block Block object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8dacb18eb917cbced91f6ed834f29ede}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Block\+By\+Input\+Id@{get\+Block\+By\+Input\+Id}}
+\index{get\+Block\+By\+Input\+Id@{get\+Block\+By\+Input\+Id}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Block\+By\+Input\+Id}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Block\+By\+Input\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{input\+Id}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8dacb18eb917cbced91f6ed834f29ede}
+\begin{DoxyVerb}Retrieves a block from the database from an input ID and initializes it.
+
+@param inputId The ID of the input used to retrieve the block.
+@retval self.getBlockByTxId(rawInput[1]) Call to getBlockByTxId method.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a0376de0201911e1e3d3e534633d085c7}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Block\+By\+Number@{get\+Block\+By\+Number}}
+\index{get\+Block\+By\+Number@{get\+Block\+By\+Number}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Block\+By\+Number}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Block\+By\+Number (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{block\+Number}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a0376de0201911e1e3d3e534633d085c7}
+\begin{DoxyVerb}Retrieves a block from the database from its ID and initializes it.
+
+@param blockNumber The block ID.
+@retval block Block object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a6f86656bdf99b8400c6bdc61461b48d9}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Block\+By\+Output\+Id@{get\+Block\+By\+Output\+Id}}
+\index{get\+Block\+By\+Output\+Id@{get\+Block\+By\+Output\+Id}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Block\+By\+Output\+Id}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Block\+By\+Output\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{output\+Id}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a6f86656bdf99b8400c6bdc61461b48d9}
+\begin{DoxyVerb}Retrieves a block from the database from an output ID and initializes it.
+
+@param outputId The ID of the output used to retrieve the block.
+@retval self.getBlockByTxId(rawOutput[1]) Call to getBlockByTxId method.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a74da0e565a62fbc30b4a7db8cb0f25ec}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Block\+By\+Tx\+Id@{get\+Block\+By\+Tx\+Id}}
+\index{get\+Block\+By\+Tx\+Id@{get\+Block\+By\+Tx\+Id}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Block\+By\+Tx\+Id}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Block\+By\+Tx\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{transaction\+Id}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a74da0e565a62fbc30b4a7db8cb0f25ec}
+\begin{DoxyVerb}Retrieves a block from the database from a transaction ID and initializes it.
+
+@param transactionId The ID of the transaction used to retrieve the block.
+@retval self.getBlockByNumber(rawTransaction[1]) Call to getBlockByNumber method.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8df7f4e0601260a9fb187b3f52a3cd93}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Block\+Count@{get\+Block\+Count}}
+\index{get\+Block\+Count@{get\+Block\+Count}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Block\+Count}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Block\+Count (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a8df7f4e0601260a9fb187b3f52a3cd93}
+\begin{DoxyVerb}Compute the count of blocks in the database.
+
+@retval rawBlock[0] The count of blocks in the database.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a232bcbd789add357dde44cf71c9d50ec}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Full\+Block\+By\+Number@{get\+Full\+Block\+By\+Number}}
+\index{get\+Full\+Block\+By\+Number@{get\+Full\+Block\+By\+Number}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Full\+Block\+By\+Number}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Full\+Block\+By\+Number (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{block\+Number}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a232bcbd789add357dde44cf71c9d50ec}
+\begin{DoxyVerb}Retrieves a block from the database from its ID and initializes it.
+
+Sets all Transaction, Input and Output objects corresponding to the block.
+@param blockNumber The block ID.
+@retval block Block object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_afaf1391bc410291096d218a2343b8d52}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Full\+Tx\+By\+Block\+Number@{get\+Full\+Tx\+By\+Block\+Number}}
+\index{get\+Full\+Tx\+By\+Block\+Number@{get\+Full\+Tx\+By\+Block\+Number}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Full\+Tx\+By\+Block\+Number}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Full\+Tx\+By\+Block\+Number (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{block\+Number}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_afaf1391bc410291096d218a2343b8d52}
+\begin{DoxyVerb}Retrieves a list of transactions from the database corresponding to a block ID and initializes them.
+
+Sets all Input and Output objects corresponding to each Transaction.
+@param blockNumber The block ID.
+@retval transaction The list of Transaction objects.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a147fc4b25f9ffb9fd5ca5ed893452cad}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Input\+By\+Id@{get\+Input\+By\+Id}}
+\index{get\+Input\+By\+Id@{get\+Input\+By\+Id}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Input\+By\+Id}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Input\+By\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{id\+\_\+}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a147fc4b25f9ffb9fd5ca5ed893452cad}
+\begin{DoxyVerb}Retrieves an input from the database from its ID and initializes it.
+
+@param id_ The input ID.
+@retval input_ Input object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9f8e2c7d80b07e8ff0fcaa07c3a642ef}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Input\+By\+Tx\+Id@{get\+Input\+By\+Tx\+Id}}
+\index{get\+Input\+By\+Tx\+Id@{get\+Input\+By\+Tx\+Id}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Input\+By\+Tx\+Id}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Input\+By\+Tx\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{transaction\+Id}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9f8e2c7d80b07e8ff0fcaa07c3a642ef}
+\begin{DoxyVerb}Retrieves a list of input from the database corresponding to a transaction ID and initializes them.
+
+@param transactionId The transaction ID.
+@retval inputList The list of Input objects.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a11585d2dbd0ac1d9cda611d9b6b2fb25}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Input\+Count@{get\+Input\+Count}}
+\index{get\+Input\+Count@{get\+Input\+Count}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Input\+Count}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Input\+Count (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a11585d2dbd0ac1d9cda611d9b6b2fb25}
+\begin{DoxyVerb}Compute the count of inputs in the database.
+
+@retval rawInput[0] The count of inputs in the database.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_afa563e6c3d2172c38de480d11758a33b}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Last\+Block@{get\+Last\+Block}}
+\index{get\+Last\+Block@{get\+Last\+Block}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Last\+Block}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Last\+Block (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_afa563e6c3d2172c38de480d11758a33b}
+\begin{DoxyVerb}Retrieves the last block inserted into the database.
+
+@retval block Block object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a46fd2036e7900fadffc5fa9a8eb8ba56}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Last\+Block\+By\+Heigth@{get\+Last\+Block\+By\+Heigth}}
+\index{get\+Last\+Block\+By\+Heigth@{get\+Last\+Block\+By\+Heigth}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Last\+Block\+By\+Heigth}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Last\+Block\+By\+Heigth (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a46fd2036e7900fadffc5fa9a8eb8ba56}
+\begin{DoxyVerb}Retrieves last main chain block inserted into the database.
+
+@retval rawBlock List of raw datas of the last main chain block.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af4ada9308310290c48d937347c740078}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Last\+Main\+Chain\+Block@{get\+Last\+Main\+Chain\+Block}}
+\index{get\+Last\+Main\+Chain\+Block@{get\+Last\+Main\+Chain\+Block}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Last\+Main\+Chain\+Block}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Last\+Main\+Chain\+Block (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af4ada9308310290c48d937347c740078}
+\begin{DoxyVerb}Retrieves last main chain block inserted into the database.
+
+@retval rawBlock List of raw datas of the last main chain block.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a481a48950bd942eed40e2a22176d33e8}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Last\+Offset@{get\+Last\+Offset}}
+\index{get\+Last\+Offset@{get\+Last\+Offset}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Last\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Last\+Offset (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{file\+Name}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a481a48950bd942eed40e2a22176d33e8}
+\begin{DoxyVerb}Compute the last offset read of the last btc file parsed.
+
+@param fileName String containing the file name.
+@retval lastOffset[0] Value of the last offset.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ab8bb7a22483d61791c1088cf95212852}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Last\+Orphan\+Flow@{get\+Last\+Orphan\+Flow}}
+\index{get\+Last\+Orphan\+Flow@{get\+Last\+Orphan\+Flow}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Last\+Orphan\+Flow}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Last\+Orphan\+Flow (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{table}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ab8bb7a22483d61791c1088cf95212852}
+\begin{DoxyVerb}Retrieves last block of the database where orphan state is undefined.
+
+@param table Table name.
+@retval rawData List of raw datas of the block found.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a1d011748df485278d4e48996737259ac}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Ledger\+At\+Time@{get\+Ledger\+At\+Time}}
+\index{get\+Ledger\+At\+Time@{get\+Ledger\+At\+Time}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Ledger\+At\+Time}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Ledger\+At\+Time (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{address, }
+\item[{}]{timestamp}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a1d011748df485278d4e48996737259ac}
+\begin{DoxyVerb}Retrieves all operations of a Bitcoin address until a specific time.
+
+@param address The address checked.
+@param timestamp The time specified in a timestamp format.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a88b226fdee21bf6f97c789e5839f7b31}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Output\+By\+Id@{get\+Output\+By\+Id}}
+\index{get\+Output\+By\+Id@{get\+Output\+By\+Id}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Output\+By\+Id}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Output\+By\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{id\+\_\+}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a88b226fdee21bf6f97c789e5839f7b31}
+\begin{DoxyVerb}Retrieves an output from the database from its ID and initializes it.
+
+@param id_ The output ID.
+@retval output Output object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac09d8bc8495cbe3e2e0a507b1d0c1ba0}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Output\+By\+Tx\+Id@{get\+Output\+By\+Tx\+Id}}
+\index{get\+Output\+By\+Tx\+Id@{get\+Output\+By\+Tx\+Id}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Output\+By\+Tx\+Id}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Output\+By\+Tx\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{transaction\+Id}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac09d8bc8495cbe3e2e0a507b1d0c1ba0}
+\begin{DoxyVerb}Retrieves a list of output from the database corresponding to a transaction ID and initializes them.
+
+@param transactionId The transaction ID.
+@retval outputList The list of Output objects.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9786a724486081babb50122dfe6d0f80}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Output\+Count@{get\+Output\+Count}}
+\index{get\+Output\+Count@{get\+Output\+Count}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Output\+Count}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Output\+Count (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9786a724486081babb50122dfe6d0f80}
+\begin{DoxyVerb}Compute the count of outputs in the database.
+
+@retval rawOutput[0] The count of outputs in the database.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_aaf7ce14583176b355c4b9c17e192be45}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Previous\+Output\+From\+Input@{get\+Previous\+Output\+From\+Input}}
+\index{get\+Previous\+Output\+From\+Input@{get\+Previous\+Output\+From\+Input}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Previous\+Output\+From\+Input}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Previous\+Output\+From\+Input (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{input\+\_\+}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_aaf7ce14583176b355c4b9c17e192be45}
+\begin{DoxyVerb}Retrieves an Output from the database corresponding to its future Input and initializes it.
+
+@param input_ Input object.
+@retval output Output object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a46d7b014b72d16f17028bbefbdad7fa7}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Tx\+By\+Block\+Number@{get\+Tx\+By\+Block\+Number}}
+\index{get\+Tx\+By\+Block\+Number@{get\+Tx\+By\+Block\+Number}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Tx\+By\+Block\+Number}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Tx\+By\+Block\+Number (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{block\+Number}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a46d7b014b72d16f17028bbefbdad7fa7}
+\begin{DoxyVerb}Retrieves the list of transactions from the database corresponding to
+a block ID and initializes them.
+
+@param blockNumber The block ID.
+@retval transactionList The list of Transaction objects.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a0fe5f099090d61791d332620790adca8}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Tx\+By\+Id@{get\+Tx\+By\+Id}}
+\index{get\+Tx\+By\+Id@{get\+Tx\+By\+Id}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Tx\+By\+Id}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Tx\+By\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{id\+\_\+}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a0fe5f099090d61791d332620790adca8}
+\begin{DoxyVerb}Retrieves a transaction from the database from its ID and initializes it.
+
+@param id_ The ID of the transaction.
+@retval Transaction object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af8f3c176e3875823994e9635c27cbe5c}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!get\+Tx\+Count@{get\+Tx\+Count}}
+\index{get\+Tx\+Count@{get\+Tx\+Count}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{get\+Tx\+Count}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+get\+Tx\+Count (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af8f3c176e3875823994e9635c27cbe5c}
+\begin{DoxyVerb}Compute the count of transactions in the database.
+
+@retval rawTransaction[0] The count of transactions in the database.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_aa1382df31079593373a9315b4c1bc3c9}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!insert\+Address@{insert\+Address}}
+\index{insert\+Address@{insert\+Address}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{insert\+Address}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+insert\+Address (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{address}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_aa1382df31079593373a9315b4c1bc3c9}
+\begin{DoxyVerb}Inserts an address into the database.
+
+Does not commit database modification.
+@param address Address object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ae72260c4408107303c0dc4837044c0b9}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!insert\+Block@{insert\+Block}}
+\index{insert\+Block@{insert\+Block}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{insert\+Block}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+insert\+Block (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{block}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ae72260c4408107303c0dc4837044c0b9}
+\begin{DoxyVerb}Inserts a block into the database.
+
+Does not commit database modification.
+@param block Block object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a3caf856162be06c4951c223fa485e294}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!insert\+Cluster@{insert\+Cluster}}
+\index{insert\+Cluster@{insert\+Cluster}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{insert\+Cluster}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+insert\+Cluster (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a3caf856162be06c4951c223fa485e294}
+\begin{DoxyVerb}Inserts a cluster into the database.
+
+Does not commit database modification.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a0dc299ec6e6c53e90eb1381d200b2026}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!insert\+Full\+Block@{insert\+Full\+Block}}
+\index{insert\+Full\+Block@{insert\+Full\+Block}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{insert\+Full\+Block}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+insert\+Full\+Block (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{block}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a0dc299ec6e6c53e90eb1381d200b2026}
+\begin{DoxyVerb}Inserts a block and its related transactions, inputs and outputs into the database.
+
+@param block Block object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac6b59f2ca85fbf2ff0b4f2d92ab90499}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!insert\+Input@{insert\+Input}}
+\index{insert\+Input@{insert\+Input}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{insert\+Input}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+insert\+Input (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{input\+\_\+}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac6b59f2ca85fbf2ff0b4f2d92ab90499}
+\begin{DoxyVerb}Inserts an input into the database.
+
+Does not commit database modification.
+@param input_ Input object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a20c466599e2c2c64de102b47339f36fa}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!insert\+Input\+To\+Ledger@{insert\+Input\+To\+Ledger}}
+\index{insert\+Input\+To\+Ledger@{insert\+Input\+To\+Ledger}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{insert\+Input\+To\+Ledger}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+insert\+Input\+To\+Ledger (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{input\+\_\+}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a20c466599e2c2c64de102b47339f36fa}
+\begin{DoxyVerb}Inserts a ledger raw from an Input object.
+
+Does not inserts coinbases.
+@param input_ Intput object.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af2733fa379504739957156fa4903af42}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!insert\+Output@{insert\+Output}}
+\index{insert\+Output@{insert\+Output}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{insert\+Output}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+insert\+Output (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{output}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_af2733fa379504739957156fa4903af42}
+\begin{DoxyVerb}Inserts a output into the database.
+
+Does not commit database modification.
+@param output Output object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a17a0a01a44a9e50919cbbe87dac62e3b}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!insert\+Output\+To\+Ledger@{insert\+Output\+To\+Ledger}}
+\index{insert\+Output\+To\+Ledger@{insert\+Output\+To\+Ledger}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{insert\+Output\+To\+Ledger}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+insert\+Output\+To\+Ledger (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{output}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a17a0a01a44a9e50919cbbe87dac62e3b}
+\begin{DoxyVerb}Inserts a ledger raw from an Output object.
+
+@param output Output object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a6d64a3635710a6a7ba4ccad62c21dacc}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!insert\+Transaction@{insert\+Transaction}}
+\index{insert\+Transaction@{insert\+Transaction}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{insert\+Transaction}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+insert\+Transaction (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{transaction}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a6d64a3635710a6a7ba4ccad62c21dacc}
+\begin{DoxyVerb}Inserts a transaction into the database.
+
+Does not commit database modification.
+Sets lastId attribute of DatabaseWrapper to the value of the inserted transaction ID.
+@param transaction Transaction object.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9a23bdd7248259238f94d717d331c109}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!is\+Seen\+At\+Time@{is\+Seen\+At\+Time}}
+\index{is\+Seen\+At\+Time@{is\+Seen\+At\+Time}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{is\+Seen\+At\+Time}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+is\+Seen\+At\+Time (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{address, }
+\item[{}]{timestamp}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a9a23bdd7248259238f94d717d331c109}
+\begin{DoxyVerb}Checks if a Bitcoin address has performed operations at a specific time.
+
+@param address The address checked.
+@param timestamp The time specified in a timestamp format.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a3cd6c0df35212ec066ddf4b4cc157535}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!prepare\+Query@{prepare\+Query}}
+\index{prepare\+Query@{prepare\+Query}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{prepare\+Query}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+prepare\+Query (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{query}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a3cd6c0df35212ec066ddf4b4cc157535}
+\begin{DoxyVerb}Sets a query into the object for later use.
+
+@param query String containing the query.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a425194c5ae188ff38bea5ac3aa010aba}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!set\+Database\+Env@{set\+Database\+Env}}
+\index{set\+Database\+Env@{set\+Database\+Env}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{set\+Database\+Env}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+set\+Database\+Env (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a425194c5ae188ff38bea5ac3aa010aba}
+\begin{DoxyVerb}Initializes database connector and creates tables.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ab7c38b341985028186600feed39f4bf7}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!set\+Last\+Id@{set\+Last\+Id}}
+\index{set\+Last\+Id@{set\+Last\+Id}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{set\+Last\+Id}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+set\+Last\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ab7c38b341985028186600feed39f4bf7}
+\begin{DoxyVerb}Sets the id of the last row inserted into the object.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac32d2cfa6e756e37bcab26f1f9e9218a}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!update\+Block\+Heigth@{update\+Block\+Heigth}}
+\index{update\+Block\+Heigth@{update\+Block\+Heigth}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{update\+Block\+Heigth}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+update\+Block\+Heigth (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{block\+Number, }
+\item[{}]{block\+Real\+Number}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_ac32d2cfa6e756e37bcab26f1f9e9218a}
+\begin{DoxyVerb}Updates a block heigth.
+
+@param blockNumber The block ID.
+@param blockRealNumber The block height.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_afd91d516eb822d58e277eb3e99bedbd7}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!update\+Main\+Chain@{update\+Main\+Chain}}
+\index{update\+Main\+Chain@{update\+Main\+Chain}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{update\+Main\+Chain}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+update\+Main\+Chain (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{prev\+Block\+Number, }
+\item[{}]{currentblock\+Hash}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_afd91d516eb822d58e277eb3e99bedbd7}
+\begin{DoxyVerb}Updates block orphan state and next_block_hash of the block.
+
+@param prevBlockNumber ID of the previous block.
+@param currentblockHash String containing block hash of the current block.
+\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a7b482b7387304bc6a3c741c39c8a79b8}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!update\+Orphan\+Blocks@{update\+Orphan\+Blocks}}
+\index{update\+Orphan\+Blocks@{update\+Orphan\+Blocks}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{update\+Orphan\+Blocks}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+update\+Orphan\+Blocks (
+\begin{DoxyParamCaption}
+\item[{}]{self}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a7b482b7387304bc6a3c741c39c8a79b8}
+\begin{DoxyVerb}Updates all block where orphan state is NULL to True.\end{DoxyVerb}
+ \hypertarget{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a4cc6f52854630e34a5f39191b82fef51}{}\index{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}!update\+Orphan\+State@{update\+Orphan\+State}}
+\index{update\+Orphan\+State@{update\+Orphan\+State}!postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper@{postgre\+Db\+::\+Database\+Wrapper\+::\+Database\+Wrapper}}
+\subsubsection[{update\+Orphan\+State}]{\setlength{\rightskip}{0pt plus 5cm}def postgre\+Db.\+Database\+Wrapper.\+Database\+Wrapper.\+update\+Orphan\+State (
+\begin{DoxyParamCaption}
+\item[{}]{self, }
+\item[{}]{table, }
+\item[{}]{block\+Number, }
+\item[{}]{state}
+\end{DoxyParamCaption}
+)}\label{classpostgreDb_1_1DatabaseWrapper_1_1DatabaseWrapper_a4cc6f52854630e34a5f39191b82fef51}
+\begin{DoxyVerb}Updates a block orphan state.
+
+@param table The name of the table.
+@param blockNumber The block ID.
+@param state The orphan block state.\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tim/\+Dev/\+Python/spelunker/src/postgre\+Db/Database\+Wrapper.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,49 @@
+{% extends "spelunker/base.html" %}
+
+{% block title %}Transaction Overview{% endblock %}
+
+{% block content %}
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Transaction #{{ transaction.id }}</h3>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Transaction Hash:</h5>
+		<h6>{{ transaction.transaction_hash }}</h6>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Parent Block Number:</h5>
+		<h6>{{ transaction.block.id }}</h6>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Version:</h5>
+		<h6>{{ transaction.version }}</h6>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>LockTime:</h5>
+		<h6>{{ transaction.locktime }}</h6>
+	</div>
+</div>
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--6-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Input Count: {{ transaction.input_count }}</h3>
+	</div>
+	<!--
+	{% for input in inputList %}
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Is Coinbase</h5>
+		<p>{{ input.coinbase }}</p>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Value</h5>
+		<p>{{ input.value }} Satoshis</p>
+	</div>
+	{% endfor %} -->
+</div>
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--6-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Output Count: {{ transaction.output_count }}</h3>
+		<!-- FOR LOOP -->
+	</div>
+</div>
+{% endblock %}

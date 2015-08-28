@@ -1,0 +1,10 @@
+DROP INDEX inputs_idx;
+DROP INDEX outputs_idx;
+DROP INDEX transactions_idx;
+DROP TABLE inputs CASCADE;
+DROP TABLE outputs CASCADE;
+DROP TABLE transactions CASCADE;
+DROP TABLE blocks CASCADE;
+DROP TABLE addresses CASCADE;
+DROP TABLE clusters;
+DROP TABLE ledger;

@@ -1,0 +1,9 @@
+digraph "/home/tim/Dev/Python/spelunker/src/clusterizer" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"]
+  dir_ec13a877a3c163706f93bc56ff2b1e27 [shape=box, label="clusterizer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ec13a877a3c163706f93bc56ff2b1e27.html"];
+  }
+}

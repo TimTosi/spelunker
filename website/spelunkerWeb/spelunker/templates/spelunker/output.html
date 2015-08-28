@@ -1,0 +1,45 @@
+{% extends "spelunker/base.html" %}
+
+{% block title %}Output Overview{% endblock %}
+
+{% block content %}
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Output #{{ output.id }}</h3>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Parent Transaction:</h5>
+		<p>{{ output.transaction.transaction_hash }}</p>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Parent Block Number:</h5>
+		<h6>{{ output.transaction.block.id }}</h6>
+	</div>
+</div>
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Output Content</h3>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Value:</h5>
+		<h6>{{ output.value }} Satoshis</h6>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Address:</h5>
+		<h6>{{ output.address }}</h6>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Index:</h5>
+		<h6>{{ output.index }}</h6>
+	</div>
+</div>
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Script</h3>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<p>{{ output.script }}</p>
+	</div>
+</div>
+</div>
+{% endblock %}

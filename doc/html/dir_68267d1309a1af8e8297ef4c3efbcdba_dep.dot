@@ -1,0 +1,15 @@
+digraph "/home/tim/Dev/Python/spelunker/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+    dir_68267d1309a1af8e8297ef4c3efbcdba [shape=plaintext label="src"];
+    dir_7f623a40ed0e717e60c8715ecb69ed91 [shape=box label="bitcoin" color="black" fillcolor="white" style="filled" URL="dir_7f623a40ed0e717e60c8715ecb69ed91.html"];
+    dir_032967285ed408ede243f4e7209426b5 [shape=box label="blockparser" color="black" fillcolor="white" style="filled" URL="dir_032967285ed408ede243f4e7209426b5.html"];
+    dir_ec13a877a3c163706f93bc56ff2b1e27 [shape=box label="clusterizer" color="black" fillcolor="white" style="filled" URL="dir_ec13a877a3c163706f93bc56ff2b1e27.html"];
+    dir_4ede2eb2b72885c23f1d0e28417132de [shape=box label="helperfunc" color="black" fillcolor="white" style="filled" URL="dir_4ede2eb2b72885c23f1d0e28417132de.html"];
+    dir_418abdc1c83acd3e69c3e32c8743b742 [shape=box label="postgreDb" color="black" fillcolor="white" style="filled" URL="dir_418abdc1c83acd3e69c3e32c8743b742.html"];
+    dir_8826f4a524d087ccfcee3a834307dc0e [shape=box label="testsuite" color="black" fillcolor="white" style="filled" URL="dir_8826f4a524d087ccfcee3a834307dc0e.html"];
+  }
+}

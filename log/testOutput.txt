@@ -1,0 +1,330 @@
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.473s
+
+OK
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.723s
+
+OK
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.289s
+
+OK
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.219s
+
+OK
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.324s
+
+OK
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.539s
+
+OK
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.609s
+
+OK
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.379s
+
+OK
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.241s
+
+OK
+testBlockHash (__main__.BlockTestCase)
+Assert the blockHash attribute of BlockHeader. ... ok
+testBlockHeight (__main__.BlockTestCase)
+Assert the realNumber attribute corresponding to the height of BlockHeader. ... ok
+testBlockIsOrphan (__main__.BlockTestCase)
+Assert the isOrphan attribute of BlockHeader. ... ok
+testBlockLength (__main__.BlockTestCase)
+Assert the length attribute corresponding to the binary size of BlockHeader. ... ok
+testBlockMerkleRoot (__main__.BlockTestCase)
+Assert the merkleRoot attribute of BlockHeader. ... ok
+testBlockNonce (__main__.BlockTestCase)
+Assert the nonce attribute of BlockHeader. ... ok
+testBlockPreviousBlockHash (__main__.BlockTestCase)
+Assert the previousBlockHash attribute of BlockHeader. ... ok
+testBlockTimestamp (__main__.BlockTestCase)
+Assert the timestamp attribute of BlockHeader. ... ok
+testBlockVersion (__main__.BlockTestCase)
+Assert the version attribute of BlockHeader. ... ok
+testTransactionHash (__main__.TransactionTestCase)
+Assert the transactionHash attribute of Transaction. ... ok
+testTransactionInputCount (__main__.TransactionTestCase)
+Assert the inputCount attribute of Transaction. ... ok
+testTransactionLockTime (__main__.TransactionTestCase)
+Assert the lockTime attribute of Transaction. ... ok
+testTransactionOutputCount (__main__.TransactionTestCase)
+Assert the outputCount attribute of Transaction. ... ok
+testTransactionVersion (__main__.TransactionTestCase)
+Assert the version attribute of Transaction. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.240s
+
+OK

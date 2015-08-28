@@ -1,0 +1,154 @@
+\hypertarget{namespacepostgreDb_1_1formatedQueries}{}\section{postgre\+Db.\+formated\+Queries Namespace Reference}
+\label{namespacepostgreDb_1_1formatedQueries}\index{postgre\+Db.\+formated\+Queries@{postgre\+Db.\+formated\+Queries}}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+string {\bfseries block\+Table}
+\item 
+string {\bfseries transaction\+Table}
+\item 
+string {\bfseries input\+Table}
+\item 
+string {\bfseries output\+Table}
+\item 
+string {\bfseries cluster\+Table}
+\item 
+string {\bfseries address\+Table}
+\item 
+string {\bfseries ledger\+Table}
+\item 
+string {\bfseries transaction\+Index}
+\item 
+string {\bfseries output\+Index}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}@package postgreDb
+Preformated queries used for table and index creation.
+
+This module provides several string queries used by the DatabaseWrapper module.
+Each queries check first if the table exists before creating them.
+Index creation is not tested.
+\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\hypertarget{namespacepostgreDb_1_1formatedQueries_a404bfcbf555fbc51bdb53a3cb9fb5b26}{}\index{postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}!address\+Table@{address\+Table}}
+\index{address\+Table@{address\+Table}!postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}}
+\subsubsection[{address\+Table}]{\setlength{\rightskip}{0pt plus 5cm}string postgre\+Db.\+formated\+Queries.\+address\+Table}\label{namespacepostgreDb_1_1formatedQueries_a404bfcbf555fbc51bdb53a3cb9fb5b26}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = \textcolor{stringliteral}{'''CREATE TABLE IF NOT EXISTS addresses}
+2 \textcolor{stringliteral}{                (ID                 VARCHAR(34) PRIMARY KEY NOT NULL,}
+3 \textcolor{stringliteral}{                CLUSTER\_ID          BIGINT              references clusters(ID)}
+4 \textcolor{stringliteral}{                );'''}
+\end{DoxyCode}
+\hypertarget{namespacepostgreDb_1_1formatedQueries_abb029ebd46317f69b75128343a4449c6}{}\index{postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}!block\+Table@{block\+Table}}
+\index{block\+Table@{block\+Table}!postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}}
+\subsubsection[{block\+Table}]{\setlength{\rightskip}{0pt plus 5cm}string postgre\+Db.\+formated\+Queries.\+block\+Table}\label{namespacepostgreDb_1_1formatedQueries_abb029ebd46317f69b75128343a4449c6}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = \textcolor{stringliteral}{'''CREATE TABLE IF NOT EXISTS blocks}
+2 \textcolor{stringliteral}{                (ID                 BIGINT PRIMARY KEY  NOT NULL,}
+3 \textcolor{stringliteral}{                MAGIC\_ID            VARCHAR(8)          NOT NULL,}
+4 \textcolor{stringliteral}{                LENGTH              INT                 NOT NULL,}
+5 \textcolor{stringliteral}{                VERSION             INT                 NOT NULL,}
+6 \textcolor{stringliteral}{                PREVIOUS\_BLOCK\_HASH VARCHAR(64)         NOT NULL,}
+7 \textcolor{stringliteral}{                MERKLE\_ROOT         VARCHAR(64)         NOT NULL,}
+8 \textcolor{stringliteral}{                TARGET\_DIFFICULTY   INT                 NOT NULL,}
+9 \textcolor{stringliteral}{                NONCE               BIGINT              NOT NULL,}
+10 \textcolor{stringliteral}{                BLOCK\_HASH          VARCHAR(64)         NOT NULL,}
+11 \textcolor{stringliteral}{                FILE\_NAME           VARCHAR(50)         NOT NULL,}
+12 \textcolor{stringliteral}{                REAL\_SIZE           BIGINT              NOT NULL,}
+13 \textcolor{stringliteral}{                BLOCK\_TIMESTAMP     TIMESTAMP           NOT NULL,}
+14 \textcolor{stringliteral}{                REAL\_NUMBER         BIGINT              DEFAULT NULL,}
+15 \textcolor{stringliteral}{                ORPHAN              BOOLEAN             DEFAULT NULL,}
+16 \textcolor{stringliteral}{                NEXT\_BLOCK\_HASH     VARCHAR(64)         DEFAULT NULL}
+17 \textcolor{stringliteral}{                );'''}
+\end{DoxyCode}
+\hypertarget{namespacepostgreDb_1_1formatedQueries_a0742871fe89794f66dea1edd1252acd6}{}\index{postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}!cluster\+Table@{cluster\+Table}}
+\index{cluster\+Table@{cluster\+Table}!postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}}
+\subsubsection[{cluster\+Table}]{\setlength{\rightskip}{0pt plus 5cm}string postgre\+Db.\+formated\+Queries.\+cluster\+Table}\label{namespacepostgreDb_1_1formatedQueries_a0742871fe89794f66dea1edd1252acd6}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = \textcolor{stringliteral}{'''CREATE TABLE IF NOT EXISTS clusters}
+2 \textcolor{stringliteral}{                (ID                 BIGSERIAL PRIMARY KEY   NOT NULL,}
+3 \textcolor{stringliteral}{                CURRENCY\_AMOUNT     BIGINT}
+4 \textcolor{stringliteral}{                );'''}
+\end{DoxyCode}
+\hypertarget{namespacepostgreDb_1_1formatedQueries_a2b43fd522f2cdccef97fbcaa3741a732}{}\index{postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}!input\+Table@{input\+Table}}
+\index{input\+Table@{input\+Table}!postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}}
+\subsubsection[{input\+Table}]{\setlength{\rightskip}{0pt plus 5cm}string postgre\+Db.\+formated\+Queries.\+input\+Table}\label{namespacepostgreDb_1_1formatedQueries_a2b43fd522f2cdccef97fbcaa3741a732}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = \textcolor{stringliteral}{'''CREATE TABLE IF NOT EXISTS inputs}
+2 \textcolor{stringliteral}{                (ID                 BIGSERIAL PRIMARY KEY   NOT NULL,}
+3 \textcolor{stringliteral}{                TRANSACTION\_ID      BIGINT              references transactions(ID),}
+4 \textcolor{stringliteral}{                TRANSACTION\_HASH    VARCHAR(64)         NOT NULL,}
+5 \textcolor{stringliteral}{                TRANSACTION\_INDEX   BIGINT              NOT NULL,}
+6 \textcolor{stringliteral}{                COINBASE            BOOLEAN             NOT NULL,}
+7 \textcolor{stringliteral}{                SEQUENCE\_NUMBER     BIGINT              NOT NULL,}
+8 \textcolor{stringliteral}{                SCRIPT              TEXT                NOT NULL,}
+9 \textcolor{stringliteral}{                ORPHAN              BOOLEAN             DEFAULT NULL}
+10 \textcolor{stringliteral}{                );'''}
+\end{DoxyCode}
+\hypertarget{namespacepostgreDb_1_1formatedQueries_a09445394a01258a235aa4db0ea66ea58}{}\index{postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}!ledger\+Table@{ledger\+Table}}
+\index{ledger\+Table@{ledger\+Table}!postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}}
+\subsubsection[{ledger\+Table}]{\setlength{\rightskip}{0pt plus 5cm}string postgre\+Db.\+formated\+Queries.\+ledger\+Table}\label{namespacepostgreDb_1_1formatedQueries_a09445394a01258a235aa4db0ea66ea58}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = \textcolor{stringliteral}{'''CREATE TABLE IF NOT EXISTS ledger}
+2 \textcolor{stringliteral}{                (ID                 BIGSERIAL PRIMARY KEY   NOT NULL,}
+3 \textcolor{stringliteral}{                ADDRESS             VARCHAR(34)         NOT NULL,}
+4 \textcolor{stringliteral}{                OPERATION           BOOLEAN             NOT NULL,}
+5 \textcolor{stringliteral}{                VALUE               BIGINT              NOT NULL,}
+6 \textcolor{stringliteral}{                BLOCK\_TIMESTAMP     TIMESTAMP           NOT NULL}
+7 \textcolor{stringliteral}{                );'''}
+\end{DoxyCode}
+\hypertarget{namespacepostgreDb_1_1formatedQueries_a099e801ee8670a18fece858b869e2292}{}\index{postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}!output\+Index@{output\+Index}}
+\index{output\+Index@{output\+Index}!postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}}
+\subsubsection[{output\+Index}]{\setlength{\rightskip}{0pt plus 5cm}string postgre\+Db.\+formated\+Queries.\+output\+Index}\label{namespacepostgreDb_1_1formatedQueries_a099e801ee8670a18fece858b869e2292}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = \textcolor{stringliteral}{'''CREATE INDEX outputs\_idx ON outputs}
+2 \textcolor{stringliteral}{                    (transaction\_id);'''}
+\end{DoxyCode}
+\hypertarget{namespacepostgreDb_1_1formatedQueries_a0ac81b3d8d15f83d54d82e9f831e805c}{}\index{postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}!output\+Table@{output\+Table}}
+\index{output\+Table@{output\+Table}!postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}}
+\subsubsection[{output\+Table}]{\setlength{\rightskip}{0pt plus 5cm}string postgre\+Db.\+formated\+Queries.\+output\+Table}\label{namespacepostgreDb_1_1formatedQueries_a0ac81b3d8d15f83d54d82e9f831e805c}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = \textcolor{stringliteral}{'''CREATE TABLE IF NOT EXISTS outputs}
+2 \textcolor{stringliteral}{                (ID                 BIGSERIAL PRIMARY KEY   NOT NULL,}
+3 \textcolor{stringliteral}{                TRANSACTION\_ID      BIGINT              references transactions(ID),}
+4 \textcolor{stringliteral}{                VALUE               BIGINT              NOT NULL,}
+5 \textcolor{stringliteral}{                ADDRESS             VARCHAR(34)         NOT NULL,}
+6 \textcolor{stringliteral}{                SCRIPT              TEXT                NOT NULL,}
+7 \textcolor{stringliteral}{                INDEX               BIGINT              NOT NULL,}
+8 \textcolor{stringliteral}{                ORPHAN              BOOLEAN             DEFAULT NULL}
+9 \textcolor{stringliteral}{                );'''}
+\end{DoxyCode}
+\hypertarget{namespacepostgreDb_1_1formatedQueries_a450e6088bcb9f0311b29593a30561c9e}{}\index{postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}!transaction\+Index@{transaction\+Index}}
+\index{transaction\+Index@{transaction\+Index}!postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}}
+\subsubsection[{transaction\+Index}]{\setlength{\rightskip}{0pt plus 5cm}string postgre\+Db.\+formated\+Queries.\+transaction\+Index}\label{namespacepostgreDb_1_1formatedQueries_a450e6088bcb9f0311b29593a30561c9e}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = \textcolor{stringliteral}{'''CREATE INDEX transactions\_idx ON transactions}
+2 \textcolor{stringliteral}{                    (transaction\_hash);'''}
+\end{DoxyCode}
+\hypertarget{namespacepostgreDb_1_1formatedQueries_a347aa8c6b951a1569e8bd73dd7756890}{}\index{postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}!transaction\+Table@{transaction\+Table}}
+\index{transaction\+Table@{transaction\+Table}!postgre\+Db\+::formated\+Queries@{postgre\+Db\+::formated\+Queries}}
+\subsubsection[{transaction\+Table}]{\setlength{\rightskip}{0pt plus 5cm}string postgre\+Db.\+formated\+Queries.\+transaction\+Table}\label{namespacepostgreDb_1_1formatedQueries_a347aa8c6b951a1569e8bd73dd7756890}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 = \textcolor{stringliteral}{'''CREATE TABLE IF NOT EXISTS transactions}
+2 \textcolor{stringliteral}{                (ID                 BIGSERIAL PRIMARY KEY   NOT NULL,}
+3 \textcolor{stringliteral}{                BLOCK\_ID            BIGINT              references blocks(ID),}
+4 \textcolor{stringliteral}{                VERSION             BIGINT              NOT NULL,}
+5 \textcolor{stringliteral}{                INPUT\_COUNT         BIGINT              NOT NULL,}
+6 \textcolor{stringliteral}{                OUTPUT\_COUNT        BIGINT              NOT NULL,}
+7 \textcolor{stringliteral}{                LOCKTIME            BIGINT              NOT NULL,}
+8 \textcolor{stringliteral}{                TRANSACTION\_HASH    VARCHAR(64)         NOT NULL}
+9 \textcolor{stringliteral}{                );'''}
+\end{DoxyCode}

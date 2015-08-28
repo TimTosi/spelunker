@@ -1,0 +1,82 @@
+{% extends "spelunker/base.html" %}
+
+{% block title %}Block Overview{% endblock %}
+
+{% block content %}
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Block #{{ blocks.real_number }}</h3>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Previous Block</h5>
+		<p>{{ blocks.previous_block_hash }}</p>
+	</div>
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h5>Next Block</h5>
+		<p>{{ blocks.next_block_hash }}</p>
+	</div>
+</div>
+
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Block Header</h3>
+	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Block Hash:</h5>
+  		<h6>{{ blocks.block_hash }}</h6>
+  	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Merkle Root:</h5>
+  		<h6>{{ blocks.merkle_root }}</h6>
+  	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Magic ID:</h5>
+  		<h6>{{ blocks.magic_id }}</h6>
+  	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Version:</h5>
+  		<h6>{{ blocks.version }}</h6>
+  	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Nonce:</h5>
+  		<h6>{{ blocks.nonce }}</h6>
+  	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Target Difficulty:</h5>
+  		<h6>{{ blocks.target_difficulty }}</h6>
+  	</div>
+</div>
+
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Block Infos</h3>
+	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Appartion Order:</h5>
+  		<h6>Block #{{ blocks.id }} in .dat File</h6>
+  	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Orphan:</h5>
+  		<h6>{{ blocks.orphan }}</h6>
+  	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Supposed Size:</h5>
+  		<h6>{{ blocks.length }} Bytes</h6>
+  	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>Real Size:</h5>
+  		<h6>{{ blocks.real_size }} Bytes</h6>
+  	</div>
+  	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+  		<h5>TimeStamp:</h5>
+  		<h6>{{ blocks.block_timestamp }}</h6>
+  	</div>
+</div>
+
+<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+	<div class="mdl-color--white mdl-cell mdl-cell--12-col">
+		<h3>Transaction List</h3>
+	</div>
+</div>
+
+{% endblock %}

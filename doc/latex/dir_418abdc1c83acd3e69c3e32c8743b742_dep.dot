@@ -1,0 +1,9 @@
+digraph "/home/tim/Dev/Python/spelunker/src/postgreDb" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"]
+  dir_418abdc1c83acd3e69c3e32c8743b742 [shape=box, label="postgreDb", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_418abdc1c83acd3e69c3e32c8743b742.html"];
+  }
+}
